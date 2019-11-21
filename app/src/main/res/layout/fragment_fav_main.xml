@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FavPackage.FavMain">
+
+    <!-- TODO: Update blank fragment layout -->
+    <FrameLayout
+        android:id="@+id/fav_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/tab_fav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+        android:theme="@style/Widget.Design.BottomNavigationView"
+        app:menu="@menu/tab_fav"/>
+
+</RelativeLayout>

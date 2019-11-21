@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Catalogue</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabMovie">Movies</string>
+    <string name="tabTv">Tv Show</string>
+    <string name="ganti_bahasa">Change Language</string>
+    <string name="textTest">Text</string>
+    <string name="tabFav">Favorite</string>
+    <string name="fav_add">Favorite Added</string>
+    <string name="fav_remove">Favorite Removed</string>
+    <string name="fav_save">Favorite Saved</string>
+    <string name="fav_del">Favorite Deleted</string>
+    <string name="notice">Do you want to quit this application?</string>
+    <string name="notive_y">Yes</string>
+    <string name="notice_n">No</string>
+</resources>

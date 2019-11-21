@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/background"
+    tools:context=".DetailActivity.DetailTmdbTvActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgDetailTv"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title_detailTv" />
+
+        <TextView
+            android:id="@+id/desc_detailTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:autoSizeTextType="uniform"
+            android:lineSpacingMultiplier="1"
+            android:text="@string/textTest"
+            android:textColor="@android:color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgDetailTv" />
+
+        <TextView
+            android:id="@+id/title_detailTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/textTest"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab_love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="16dp"
+            android:foregroundGravity="bottom"
+            android:visibility="visible"
+            app:fabSize="mini"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/desc_detailTv"
+            app:srcCompat="@drawable/ic_fav" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Katalog</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tabMovie">Film</string>
+    <string name="tabTv">Acara Tv</string>
+    <string name="ganti_bahasa">Ganti Bahasa</string>
+    <string name="textTest">Teks</string>
+    <string name="tabFav">Favorit</string>
+    <string name="fav_add">Favorit Berhasil Ditambahkan</string>
+    <string name="fav_remove">Favorit Berhasil Dihapus</string>
+    <string name="fav_save">Favorit Disimpan</string>
+    <string name="fav_del">Favorit Dihapus</string>
+    <string name="notice">Apakah kamu benar - benar ingin keluar?</string>
+    <string name="notive_y">Ya</string>
+    <string name="notice_n">Tidak</string>
+</resources>
